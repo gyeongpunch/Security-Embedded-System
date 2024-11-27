@@ -57,12 +57,14 @@ gcc -o handshake_server server.c -lssl -lcrypto -ljson-c
 
 ```bash
 /handshake-protocol
-├── client.c            # 클라이언트 프로그램
-├── server.c            # 서버 프로그램
-├── Makefile            # 컴파일을 위한 Makefile
 ├── README.md           # 프로젝트 설명 파일
+├── code/               # 클라이언트 및 서버 코드 폴더
+│   ├── client.c        # 클라이언트 프로그램
+│   ├── server.c        # 서버 프로그램
+├── README.md           # code 폴더 설명 파일
 └── src/                # 소스 코드 및 라이브러리
 ```
+
 
 ## ⚙️ 코드 설명
 ### 1. RSA 암호화
